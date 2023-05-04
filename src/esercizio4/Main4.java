@@ -12,10 +12,11 @@ public class Main4 {
 	
 	public static void countDown() {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Inserisci un numero da far partire il count-down");
+		System.out.println("Inserisci un numero da far partire il count-down:");
         int input = scanner.nextInt();
         for (int i = input; i >= 0; i--) {
 			System.out.println(i);
 		}
+        scanner.close();
 	}
 }
