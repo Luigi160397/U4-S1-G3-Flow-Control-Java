@@ -3,12 +3,12 @@ package esercizio2;
 public class Main2 {
 
 	public static void main(String[] args) {
-		stampaInLettere(4);
+		stampaInLettere(3);
 
 	}
 	
 	public static void stampaInLettere (int num) {
-		if (num >= 0 && num <= 3) {
+		
 	        switch (num) {
 	            case 0:
 	                System.out.println("zero");
@@ -22,10 +22,13 @@ public class Main2 {
 	            case 3:
 	                System.out.println("tre");
 	                break;
+	            default:
+	            	System.out.println("Il numero deve essere compreso tra 0 e 3");
+	            	break;
 	        }
-	    } else {
-	        System.out.println("Il numero deve essere compreso tra 0 e 3");
-	    }
+	    } 
+	        
+	  
 	}
 
-}
+
